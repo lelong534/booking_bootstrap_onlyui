@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tìm kiếm</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">NLĐH Booking</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <button type="button" class="btn btn-light">Thư báo</button>
+                    <button type="button" class="btn btn-light">Đăng chỗ nghỉ</button>
+                    <button type="button" class="btn btn-light">Đăng nhập</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <form class="search">
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="diaiem">Địa điểm</label>
+                    <input type="text" class="form-control" id="diadiem" placeholder="Hà Nội">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="time">Thời gian nhận phòng - trả phòng</label>
+                    <input type="text" class="form-control" id="time" placeholder="">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="number">Số người ở</label>
+                    <input type="password" class="form-control" id="number" placeholder="2">
+                </div>
+                <button type="button" class="btn btn-info">Tìm kiếm</button>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-lg-3 group1">
+                <h4 class="my-4">Lọc theo:</h4>
+                <p>Ngân sách của bạn:</p>
+                <div>
+                    <input type="checkbox">
+                    <label>0 - 1.000.000 mỗi đêm</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>1.000.000 - 2.000.000 mỗi đêm</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>2.000.000 trở lên mỗi đêm</label>
+                </div>
+                </br>
+                <p>Loại chỗ ở:</p>
+                <div>
+                    <input type="checkbox">
+                    <label>Khách sạn</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Căn hộ</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Nhà trọ</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Nhà nghỉ</label>
+                </div>
+                </br>
+                <p>Tiện nghi phòng:</p>
+                <div>
+                    <input type="checkbox">
+                    <label>Điều hòa</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Phòng tắm riêng</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Sân hiên</label>
+                </div>
+                </br>
+                <p>Xếp hạng sao:</p>
+                <div>
+                    <input type="checkbox">
+                    <label>0 sao</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>1 sao</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>2 sao</label>
+                </div>
+            </div>
+            <!-- /.col-lg-3 -->
+
+            <div class="col-lg-9 main1">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="1.jpg" class="card-img" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">O'Gallery Premier Hotel & Spa</h5>
+                                <p class="card-text"><small class="text-muted">38 Tran Phu, Quận Hoàn Kiếm, Hà Nội,
+                                        Việt Nam.</small></p>
+                                <p class="card-text">Tọa lạc tại Khu phố Pháp yên bình, O'Gallery Majestic Hotel & Spa
+                                    có hồ bơi ngoài trời, phòng tập thể dục và vườn ...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn_right">
+                        <button type="button" class="btn btn-success">Chọn phòng</button>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="2.jpg" class="card-img" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">O'Gallery Premier Hotel & Spa</h5>
+                                <p class="card-text"><small class="text-muted"> 1B Chan Cam, Hoan Kiem, Quận Hoàn Kiếm, Hà Nội, Việt Nam.</small></p>
+                                <p class="card-text">Các phòng nghỉ tại đây được trang bị nhiều tiện nghi như TV màn hình phẳng, két an toàn, minibar và tủ quần áo. Một số phòng còn có sân hiên hoặc ban công ...</p>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="btn_right">
+                        <button type="button" class="btn btn-success">Chọn phòng</button>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="3.jpg" class="card-img" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">O'Gallery Premier Hotel & Spa</h5>
+                                <p class="card-text"><small class="text-muted">38 Tran Phu, Quận Hoàn Kiếm, Hà Nội,
+                                        Việt Nam.</small></p>
+                                <p class="card-text">Hồ Hoàn Kiếm cách nhà trọ chưa đến 1 km, trong khi Ô Quan Chưởng cách đó 14 phút đi bộ. Sân bay quốc tế Nội Bài cách The First Hostel 25 km.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn_right">
+                        <button type="button" class="btn btn-success">Chọn phòng</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.col-lg-9 -->
+    </div>
+    <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+</body>
+
+</html>

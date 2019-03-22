@@ -1,0 +1,29 @@
+body {
+    padding-top: 56px;
+}
+
+footer{
+    margin: 20px 0;
+}
+.search{
+    margin-top: 30px;
+}
+
+.group1{
+    border: solid 1px #c2c2bc;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.main1{
+    margin-top: 25px;
+}
+
+.btn_right{
+   margin-left: 675px;
+   margin-bottom: 10px;
+}
+
+.main2{
+    margin-top: 50px;
+}
